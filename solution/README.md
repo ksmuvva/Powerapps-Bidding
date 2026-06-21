@@ -53,21 +53,54 @@ into a **development environment first**.
 ## Path B — Deploy via the supported Web API (recommended)
 
 Creates the publisher, solution, choices, tables, columns and relationships
-through documented metadata operations.
+through documented metadata operations. Run it on a machine that can reach your
+Dataverse environment.
+
+### 1. Prerequisites
+
+- Python 3.8+
+- A sign-in (or service principal) with the **System Customizer** or **System
+  Administrator** role.
+- For interactive sign-in: `pip install msal`
+
+### 2. Dry run first (no changes, no sign-in)
 
 ```bash
-export DATAVERSE_URL="https://yourorg.crm11.dynamics.com"
-# Get a bearer token, e.g. with Azure CLI:
-export DATAVERSE_TOKEN="$(az account get-access-token \
-  --resource https://yourorg.crm11.dynamics.com \
-  --query accessToken -o tsv)"
-
-python3 build/deploy_via_webapi.py
+python3 build/deploy_via_webapi.py \
+  --url https://YOURORG.crm11.dynamics.com --dry-run
 ```
 
-The script prints the result of each create call and is idempotent-ish
-(already-existing components are skipped). You need a user/service principal
-with the **System Customizer** (or System Administrator) role.
+This prints every component it will create (should report ~84 items) so you can
+review before touching the environment.
+
+### 3. Deploy (interactive device-code sign-in)
+
+```bash
+pip install msal
+python3 build/deploy_via_webapi.py \
+  --url https://YOURORG.crm11.dynamics.com
+```
+
+The script prints a URL and a code — open the URL, enter the code, and sign in
+with your maker/admin account. It then creates everything and prints a
+per-component result plus a final summary.
+
+### Other auth options
+
+```bash
+# Azure CLI token (run `az login` first)
+python3 build/deploy_via_webapi.py --url <url> --auth az
+
+# Supply your own bearer token
+export DATAVERSE_TOKEN="<token>"
+python3 build/deploy_via_webapi.py --url <url> --auth token
+```
+
+The script is idempotent-ish: components that already exist are skipped, so it
+is safe to re-run. It exits non-zero if any component failed.
+
+> Finding your environment URL: make.powerapps.com → Settings (gear) →
+> Session details, or the Power Platform admin center → your environment.
 
 ---
 
