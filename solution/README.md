@@ -39,11 +39,11 @@ into a **development environment first**.
 1. Build the zip (already committed under `dist/`, or regenerate):
    ```bash
    python3 build/generate_solution.py
-   # -> dist/BidManagement_1_0_0_0.zip
+   # -> dist/BidManagement_1_0_1_0.zip
    ```
 2. Go to <https://make.powerapps.com> → pick your **dev environment**.
 3. **Solutions** → **Import solution** → upload
-   `dist/BidManagement_1_0_0_0.zip` → **Next** → **Import**.
+   `dist/BidManagement_1_0_1_0.zip` → **Next** → **Import**.
 4. If the import reports an error, note the message and switch to Path B (or
    send me the error and I'll correct the generator).
 

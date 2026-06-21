@@ -21,7 +21,7 @@ from xml.sax.saxutils import escape
 # --------------------------------------------------------------------------- #
 PREFIX = "bid"                       # customization (schema) prefix -> bid_xxx
 LCID = 1033                          # English (US)
-VERSION = "1.0.0.0"
+VERSION = "1.0.1.0"
 OPTVAL_PREFIX = 50732                # publisher option-value prefix (5 digits)
 OPTVAL_BASE = OPTVAL_PREFIX * 10000  # global option base value
 

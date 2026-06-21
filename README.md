@@ -52,7 +52,7 @@ The Dataverse schema (11 tables, 10 global choices, 12 relationships) is built
 and ready in [`solution/`](solution/). Two deployment paths are documented in
 [solution/README.md](solution/README.md):
 
-- **Path A** — import `solution/dist/BidManagement_1_0_0_0.zip` at
+- **Path A** — import `solution/dist/BidManagement_1_0_1_0.zip` at
   make.powerapps.com (convenience).
 - **Path B (recommended/supported)** — run `solution/build/deploy_via_webapi.py`
   against your environment.

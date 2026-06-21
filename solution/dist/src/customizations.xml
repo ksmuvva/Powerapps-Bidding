@@ -20,7 +20,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -39,7 +39,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -67,7 +67,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -93,7 +93,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -108,7 +108,7 @@
         <OptionSetType>bit</OptionSetType>
         <IsGlobal>0</IsGlobal>
         <IsCustomizable>1</IsCustomizable>
-        <introducedversion>1.0.0.0</introducedversion>
+        <introducedversion>1.0.1.0</introducedversion>
         <displaynames><displayname description="Active" languagecode="1033" /></displaynames>
         <Descriptions><Description description="" languagecode="1033" /></Descriptions>
         <options>
@@ -145,21 +145,21 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{73838193-2ae5-4a37-a945-60169b08709a}</formid>
+          <formid>{338bc204-4280-4f0b-8cb8-e9a00df6405d}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{c58b9bac-5bd5-4e63-96a9-588f34d2f6f0}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{f4f693ca-1f4b-4b3d-a024-ba2395805fac}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{5e3ed245-282b-4d54-ab6e-33556303efed}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{5d1c3fe5-c596-4989-ae95-dad6ca189ded}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{ff3dad3c-e452-45fa-aef8-4cf7f76dbbf0}"><labels><label description="Company Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{51689f88-3787-4f56-87b0-f5e84581ce89}"><labels><label description="Code" languagecode="1033" /></labels><control id="bid_code" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_code" /></cell></row>
-<row><cell id="{3fdbd893-094e-40a4-8272-e39248496557}"><labels><label description="Active" languagecode="1033" /></labels><control id="bid_active" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_active" /></cell></row>
+<row><cell id="{5f14df65-05bf-4e15-9b4d-cdd9491108da}"><labels><label description="Company Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{d1dd4928-bde5-48c7-aaf6-7f4ff67c9b21}"><labels><label description="Code" languagecode="1033" /></labels><control id="bid_code" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_code" /></cell></row>
+<row><cell id="{98105dc9-19cf-49a4-8538-bc17d4773aba}"><labels><label description="Active" languagecode="1033" /></labels><control id="bid_active" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_active" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -181,7 +181,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_company</returnedtypecode>
-          <savedqueryid>{8123edc5-1400-4822-aa59-ac24f9b4849a}</savedqueryid>
+          <savedqueryid>{cc0663a1-d64e-4951-99ed-82371b238ee3}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_companyid">
@@ -226,7 +226,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -245,7 +245,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -273,7 +273,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -288,7 +288,7 @@
         <OptionSetType>bit</OptionSetType>
         <IsGlobal>0</IsGlobal>
         <IsCustomizable>1</IsCustomizable>
-        <introducedversion>1.0.0.0</introducedversion>
+        <introducedversion>1.0.1.0</introducedversion>
         <displaynames><displayname description="Active" languagecode="1033" /></displaynames>
         <Descriptions><Description description="" languagecode="1033" /></Descriptions>
         <options>
@@ -325,20 +325,20 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{a5e05b7d-58f8-4368-81ba-9c943bea2dfb}</formid>
+          <formid>{7ea1b139-24b8-498b-8526-9f8611bb3c0d}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{86cac7b2-f311-432b-92da-61924fee2bf6}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{69beb484-231d-44b0-b287-5fc391325004}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{9c03fed5-a572-4589-9938-19f0447510c8}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{d8a48cf7-4b6e-47f3-b932-862f1d717d65}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{212b120b-84fb-422e-84e6-6e01394a2dca}"><labels><label description="Domain Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{8fa1c4d5-2c1d-4717-9bb5-6a3c89b5c0ad}"><labels><label description="Active" languagecode="1033" /></labels><control id="bid_active" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_active" /></cell></row>
+<row><cell id="{b16d46ef-86d8-4123-b070-01627ce76349}"><labels><label description="Domain Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{b61c0527-2ec7-407d-a559-a3c3bb8d2065}"><labels><label description="Active" languagecode="1033" /></labels><control id="bid_active" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_active" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -360,7 +360,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_domain</returnedtypecode>
-          <savedqueryid>{bf20844d-b6fa-4aab-8e02-102be892157d}</savedqueryid>
+          <savedqueryid>{f377acfa-8e40-42df-a8e2-4a21069789de}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_domainid">
@@ -403,7 +403,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -422,7 +422,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -450,7 +450,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -465,7 +465,7 @@
         <OptionSetType>bit</OptionSetType>
         <IsGlobal>0</IsGlobal>
         <IsCustomizable>1</IsCustomizable>
-        <introducedversion>1.0.0.0</introducedversion>
+        <introducedversion>1.0.1.0</introducedversion>
         <displaynames><displayname description="Active" languagecode="1033" /></displaynames>
         <Descriptions><Description description="" languagecode="1033" /></Descriptions>
         <options>
@@ -502,20 +502,20 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{2e54a6a7-103f-4bf5-9a8c-596a5bc906d6}</formid>
+          <formid>{91465c54-0bc3-431c-a97a-61321134944b}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{4a474fc6-39df-4e2f-84f3-cc4e28c2979a}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{7eae1583-24a5-4c78-a298-cf639046b096}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{b5eea6f8-42bb-4a9c-ac65-665591f65961}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{cbf28e27-a060-4ad3-9281-4c7d92921bfd}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{7ec56ed4-4ddb-4340-89fd-c4752034c92d}"><labels><label description="Buyer Type" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{62311a54-c060-4e6c-8c1c-25d95bd51bea}"><labels><label description="Active" languagecode="1033" /></labels><control id="bid_active" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_active" /></cell></row>
+<row><cell id="{b3bebdc6-c73c-4aad-8390-362ebaef1212}"><labels><label description="Buyer Type" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{f71f372d-21c7-4880-a19d-7b5339d8177a}"><labels><label description="Active" languagecode="1033" /></labels><control id="bid_active" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_active" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -537,7 +537,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_buyertype</returnedtypecode>
-          <savedqueryid>{a45c39a2-3944-4d84-acd7-446cb1aec9cd}</savedqueryid>
+          <savedqueryid>{edce1636-e052-436c-9aa1-2e237f941073}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_buyertypeid">
@@ -580,7 +580,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -599,7 +599,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -627,7 +627,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -653,7 +653,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -681,7 +681,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -720,22 +720,22 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{744721d8-4e2b-47c0-b635-18dfe7cb5ec9}</formid>
+          <formid>{db13bde8-2356-4d52-b4ae-ea749d5ab433}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{ffbc6689-59a4-4e6c-9b4e-03de0cd639aa}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{161fd51f-4387-4f65-a39d-84c3a39b98cf}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{aca2d9ee-2c42-4185-b6b1-a9959ad29592}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{80f66c8e-4c1c-4a8d-a0b0-430512c814dc}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{5c146940-b24f-44c8-9e9c-2143a0984e5c}"><labels><label description="Buyer Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{f2869679-bf56-4dfe-8642-852725cf88f0}"><labels><label description="Buyer Type" languagecode="1033" /></labels><control id="bid_buyertypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_buyertypeid" /></cell></row>
-<row><cell id="{2d94f44c-37f8-442c-a5f3-2ea3cdba3419}"><labels><label description="Region" languagecode="1033" /></labels><control id="bid_region" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_region" /></cell></row>
-<row><cell id="{9abafae9-5473-4498-b754-e04c16c09558}"><labels><label description="Website" languagecode="1033" /></labels><control id="bid_website" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_website" /></cell></row>
+<row><cell id="{2d77c894-1a1b-4c6b-8b72-590e13c93614}"><labels><label description="Buyer Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{8f9d67e5-30d6-4fcf-b1e7-4b9aa184a271}"><labels><label description="Buyer Type" languagecode="1033" /></labels><control id="bid_buyertypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_buyertypeid" /></cell></row>
+<row><cell id="{a96f4715-30fe-4e14-805e-feeb9bd9aabd}"><labels><label description="Region" languagecode="1033" /></labels><control id="bid_region" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_region" /></cell></row>
+<row><cell id="{3658edc1-2e1f-4168-8556-efdda0fc4f3d}"><labels><label description="Website" languagecode="1033" /></labels><control id="bid_website" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_website" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -757,7 +757,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_buyer</returnedtypecode>
-          <savedqueryid>{3ecd650f-5e8e-479b-9938-8249fb776399}</savedqueryid>
+          <savedqueryid>{7fb133b8-5b02-4bbc-8d0f-ea1159dc8da8}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_buyerid">
@@ -802,7 +802,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -821,7 +821,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -849,7 +849,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -875,7 +875,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -901,7 +901,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -941,22 +941,22 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{27d7a12b-355f-470e-8975-60d6a6c777f9}</formid>
+          <formid>{6ee25a16-739d-4999-b0c5-79f1ed9fabb0}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{a3a4eb59-2e57-4715-82ae-830bc836f420}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{63f8234a-ef1f-45a3-befe-d5b8c3334218}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{b58e7731-e978-41a8-90bb-5263ef561533}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{27377df8-27b7-4e94-a73f-517012552776}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{598d0010-ef30-4485-9938-23e01ae1c2da}"><labels><label description="Framework Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{8b801c65-141a-40d8-9769-6ebaf104b8e2}"><labels><label description="Lot" languagecode="1033" /></labels><control id="bid_lot" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_lot" /></cell></row>
-<row><cell id="{6413bb98-029d-499c-9018-c5086bd0211f}"><labels><label description="Owning Authority" languagecode="1033" /></labels><control id="bid_ownerauthorityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_ownerauthorityid" /></cell></row>
-<row><cell id="{ef914e16-63d8-4eed-aab6-7e05bbc74e2b}"><labels><label description="Expiry Date" languagecode="1033" /></labels><control id="bid_expiry" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_expiry" /></cell></row>
+<row><cell id="{cf3993c4-d236-48cc-a1cb-9512078e5dda}"><labels><label description="Framework Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{15d931fb-693d-4af8-b59a-72f06bc74d32}"><labels><label description="Lot" languagecode="1033" /></labels><control id="bid_lot" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_lot" /></cell></row>
+<row><cell id="{6253efe7-cad5-4fab-bc32-f0dd758b3f23}"><labels><label description="Owning Authority" languagecode="1033" /></labels><control id="bid_ownerauthorityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_ownerauthorityid" /></cell></row>
+<row><cell id="{e7f3a28c-fc8f-46ab-881b-6def439e5f27}"><labels><label description="Expiry Date" languagecode="1033" /></labels><control id="bid_expiry" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_expiry" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -978,7 +978,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_framework</returnedtypecode>
-          <savedqueryid>{321beb37-3f2e-4315-b8bc-e9839f16f1ed}</savedqueryid>
+          <savedqueryid>{ec253bfc-a32b-474f-b6ef-a4c4b656abbb}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_frameworkid">
@@ -1025,7 +1025,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -1044,7 +1044,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1072,7 +1072,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1098,7 +1098,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1124,7 +1124,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1150,7 +1150,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1176,7 +1176,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1202,7 +1202,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1228,7 +1228,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1256,7 +1256,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1284,7 +1284,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1311,7 +1311,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1338,7 +1338,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1364,7 +1364,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1391,7 +1391,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1418,7 +1418,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1445,7 +1445,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1472,7 +1472,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1499,7 +1499,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1525,7 +1525,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1551,7 +1551,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1566,7 +1566,7 @@
         <OptionSetType>bit</OptionSetType>
         <IsGlobal>0</IsGlobal>
         <IsCustomizable>1</IsCustomizable>
-        <introducedversion>1.0.0.0</introducedversion>
+        <introducedversion>1.0.1.0</introducedversion>
         <displaynames><displayname description="AI Processed" languagecode="1033" /></displaynames>
         <Descriptions><Description description="" languagecode="1033" /></Descriptions>
         <options>
@@ -1603,38 +1603,38 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{a7ce63fd-2c10-420b-b808-aee3405673e0}</formid>
+          <formid>{eab3a0dd-6ff4-4b39-abdb-9fce9f15ad75}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{cd2af156-b72c-46e4-a351-68aa2c63e6ee}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{9a50a0f5-f952-4440-b0b1-62721c86ffc9}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{8665ef7b-7488-4662-ae97-350bee507f5d}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{f7f567db-2e07-42a0-b6b9-d2d3230faf3f}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{9e877535-6c3e-4203-9563-f1b36525262b}"><labels><label description="Opportunity Title" languagecode="1033" /></labels><control id="bid_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_title" /></cell></row>
-<row><cell id="{09a7a1e7-4105-48ba-9e2d-99e559fe2bec}"><labels><label description="Bid Reference" languagecode="1033" /></labels><control id="bid_reference" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_reference" /></cell></row>
-<row><cell id="{ff2836d1-a1e9-4c8f-b97e-39980855b6e9}"><labels><label description="Company" languagecode="1033" /></labels><control id="bid_companyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_companyid" /></cell></row>
-<row><cell id="{a740cc1f-793d-45dd-88e9-317681e485ed}"><labels><label description="Domain" languagecode="1033" /></labels><control id="bid_domainid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_domainid" /></cell></row>
-<row><cell id="{933e8f27-7598-4a0f-b3e9-5a49d076c1a3}"><labels><label description="Buyer Type" languagecode="1033" /></labels><control id="bid_buyertypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_buyertypeid" /></cell></row>
-<row><cell id="{6f33d057-b8c5-47fb-a08c-1ad3a6e17a38}"><labels><label description="Buyer" languagecode="1033" /></labels><control id="bid_buyerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_buyerid" /></cell></row>
-<row><cell id="{9e32a10a-4ca2-4bc1-91ac-56bf59486aa3}"><labels><label description="Framework" languagecode="1033" /></labels><control id="bid_frameworkid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_frameworkid" /></cell></row>
-<row><cell id="{0cbef34b-72c8-4802-8187-1ef9754c6a37}"><labels><label description="Stage" languagecode="1033" /></labels><control id="bid_stage" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_stage" /></cell></row>
-<row><cell id="{171fb49a-2783-4dcc-a392-bf18d7b6eeb8}"><labels><label description="Source" languagecode="1033" /></labels><control id="bid_source" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_source" /></cell></row>
-<row><cell id="{71076d7c-facb-41b9-9773-b24521268066}"><labels><label description="Estimated Value" languagecode="1033" /></labels><control id="bid_estvalue" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="bid_estvalue" /></cell></row>
-<row><cell id="{70e95a61-19ca-498e-a7f9-cf77282d4343}"><labels><label description="Duration (Months)" languagecode="1033" /></labels><control id="bid_durationmonths" classid="{C6D124CA-7EDA-4a60-AAE0-8F0F6D293D9D}" datafieldname="bid_durationmonths" /></cell></row>
-<row><cell id="{cfab7d44-21d1-4be7-8c66-33d70602ec27}"><labels><label description="External Reference" languagecode="1033" /></labels><control id="bid_externalref" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_externalref" /></cell></row>
-<row><cell id="{edf8ef33-c33b-4a39-8b3c-d04b273b8a75}"><labels><label description="Published Date" languagecode="1033" /></labels><control id="bid_publisheddate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_publisheddate" /></cell></row>
-<row><cell id="{3347d36b-fd6f-4437-b103-266c76ac1194}"><labels><label description="Clarification Deadline" languagecode="1033" /></labels><control id="bid_clarificationdeadline" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="bid_clarificationdeadline" /></cell></row>
-<row><cell id="{5e56b729-806f-4c19-88e0-60eff3ef7a0f}"><labels><label description="Submission Deadline" languagecode="1033" /></labels><control id="bid_submissiondeadline" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="bid_submissiondeadline" /></cell></row>
-<row><cell id="{1af44ff8-705f-4cd2-923d-e07f445e2f59}"><labels><label description="Award Date" languagecode="1033" /></labels><control id="bid_awarddate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_awarddate" /></cell></row>
-<row><cell id="{f3f9f263-ff8a-4cdd-b442-545e5a94ae59}"><labels><label description="Contract Start" languagecode="1033" /></labels><control id="bid_contractstart" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_contractstart" /></cell></row>
-<row><cell id="{2cf79d62-1ce0-45fc-ad03-01bc181bca4f}"><labels><label description="Summary" languagecode="1033" /></labels><control id="bid_summary" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="bid_summary" /></cell></row>
-<row><cell id="{a6021fbb-f078-4c95-8876-ed86c5c9a8d6}"><labels><label description="AI Summary" languagecode="1033" /></labels><control id="bid_aisummary" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="bid_aisummary" /></cell></row>
-<row><cell id="{02bb1989-74d2-4ff2-9970-7c01c15c44a1}"><labels><label description="AI Processed" languagecode="1033" /></labels><control id="bid_aiprocessed" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_aiprocessed" /></cell></row>
+<row><cell id="{660d9a43-e7c6-4575-8af8-ec2872f4cc8a}"><labels><label description="Opportunity Title" languagecode="1033" /></labels><control id="bid_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_title" /></cell></row>
+<row><cell id="{c051ceb0-7367-4228-ba95-1ffa77b4404f}"><labels><label description="Bid Reference" languagecode="1033" /></labels><control id="bid_reference" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_reference" /></cell></row>
+<row><cell id="{495b3122-a76f-4acf-b5a0-8add9dcb9d3a}"><labels><label description="Company" languagecode="1033" /></labels><control id="bid_companyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_companyid" /></cell></row>
+<row><cell id="{8d074f97-690e-4802-bff3-818ad20f5dc8}"><labels><label description="Domain" languagecode="1033" /></labels><control id="bid_domainid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_domainid" /></cell></row>
+<row><cell id="{1fc427fb-64cf-4cfe-9154-0441035427f3}"><labels><label description="Buyer Type" languagecode="1033" /></labels><control id="bid_buyertypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_buyertypeid" /></cell></row>
+<row><cell id="{df19b73b-2d03-42dd-b925-7080256b9dd5}"><labels><label description="Buyer" languagecode="1033" /></labels><control id="bid_buyerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_buyerid" /></cell></row>
+<row><cell id="{ac5b0006-fdb3-414a-9409-0a121a193d3c}"><labels><label description="Framework" languagecode="1033" /></labels><control id="bid_frameworkid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_frameworkid" /></cell></row>
+<row><cell id="{d96109e5-48a4-4ffe-9875-0aa1bff68186}"><labels><label description="Stage" languagecode="1033" /></labels><control id="bid_stage" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_stage" /></cell></row>
+<row><cell id="{953ad3ef-b97f-436f-896a-647278bbac2a}"><labels><label description="Source" languagecode="1033" /></labels><control id="bid_source" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_source" /></cell></row>
+<row><cell id="{352221c6-1a3e-4e8a-8e4e-6f3025826d25}"><labels><label description="Estimated Value" languagecode="1033" /></labels><control id="bid_estvalue" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="bid_estvalue" /></cell></row>
+<row><cell id="{58ebc51c-ed51-4f91-a8a5-e88d0ec6995c}"><labels><label description="Duration (Months)" languagecode="1033" /></labels><control id="bid_durationmonths" classid="{C6D124CA-7EDA-4a60-AAE0-8F0F6D293D9D}" datafieldname="bid_durationmonths" /></cell></row>
+<row><cell id="{be0befca-4ffb-48fd-b00f-f22204d40e78}"><labels><label description="External Reference" languagecode="1033" /></labels><control id="bid_externalref" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_externalref" /></cell></row>
+<row><cell id="{e0e22ae2-1fa8-4859-b772-b9bd1397e5ef}"><labels><label description="Published Date" languagecode="1033" /></labels><control id="bid_publisheddate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_publisheddate" /></cell></row>
+<row><cell id="{c13a263d-c54b-4571-b6ed-eb97e1a6df8b}"><labels><label description="Clarification Deadline" languagecode="1033" /></labels><control id="bid_clarificationdeadline" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="bid_clarificationdeadline" /></cell></row>
+<row><cell id="{3b03bd2c-cab2-4200-9b5c-a160decd92e2}"><labels><label description="Submission Deadline" languagecode="1033" /></labels><control id="bid_submissiondeadline" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="bid_submissiondeadline" /></cell></row>
+<row><cell id="{43cc5806-014a-4537-b4d6-7017b284aa61}"><labels><label description="Award Date" languagecode="1033" /></labels><control id="bid_awarddate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_awarddate" /></cell></row>
+<row><cell id="{c5b4463e-b6cf-4402-b4d1-730413aa0406}"><labels><label description="Contract Start" languagecode="1033" /></labels><control id="bid_contractstart" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_contractstart" /></cell></row>
+<row><cell id="{89659fd3-2e15-49ac-a753-ac79afc9af97}"><labels><label description="Summary" languagecode="1033" /></labels><control id="bid_summary" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="bid_summary" /></cell></row>
+<row><cell id="{77a47faa-bee4-4a2f-a119-1b0706389c90}"><labels><label description="AI Summary" languagecode="1033" /></labels><control id="bid_aisummary" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="bid_aisummary" /></cell></row>
+<row><cell id="{05123d18-c987-4518-aae8-9055ee6342cd}"><labels><label description="AI Processed" languagecode="1033" /></labels><control id="bid_aiprocessed" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_aiprocessed" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -1656,7 +1656,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_opportunity</returnedtypecode>
-          <savedqueryid>{1adb28e4-4929-4f9f-81c6-18ab5cca7b17}</savedqueryid>
+          <savedqueryid>{cd5dc8c6-561e-4aa0-babb-254dca966999}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_title" select="1" icon="1" preview="1">
               <row name="result" id="bid_opportunityid">
@@ -1705,7 +1705,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -1724,7 +1724,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1752,7 +1752,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1778,7 +1778,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1806,7 +1806,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1834,7 +1834,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1862,7 +1862,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1890,7 +1890,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1918,7 +1918,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1946,7 +1946,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -1973,7 +1973,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2001,7 +2001,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2029,7 +2029,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2056,7 +2056,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2095,31 +2095,31 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{61b0127e-ab52-49ad-a760-5ebd8e1b2cc1}</formid>
+          <formid>{b1a417a9-4aae-45e4-b928-9f8ac9c5360e}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{403df1e1-0d6a-489b-9c1f-f0f935ee2f2b}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{8eb97fda-08ed-479e-a609-f6e52dd98cfe}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{167f40aa-7313-4a7b-9492-cabe1c00bada}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{2ca86562-f581-45e0-8b97-61f4354d5ea1}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{499f3813-ec4f-4a78-85b3-b73bbf967376}"><labels><label description="Scorecard Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{91144978-4443-4710-986a-0a81035736b3}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="bid_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_opportunityid" /></cell></row>
-<row><cell id="{6d8366c9-bc19-41d1-a34d-26e74869c2e2}"><labels><label description="Strategic Fit" languagecode="1033" /></labels><control id="bid_strategicfit" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_strategicfit" /></cell></row>
-<row><cell id="{3343d385-12bc-4aa6-bb39-96d9a67f340b}"><labels><label description="Capability" languagecode="1033" /></labels><control id="bid_capability" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_capability" /></cell></row>
-<row><cell id="{07a25d1c-c180-421e-81af-0983fe17c489}"><labels><label description="Competitiveness" languagecode="1033" /></labels><control id="bid_competitiveness" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_competitiveness" /></cell></row>
-<row><cell id="{0a0d42b0-c73e-4bbb-bc55-773b8381bb17}"><labels><label description="Commercial Value" languagecode="1033" /></labels><control id="bid_commercialvalue" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_commercialvalue" /></cell></row>
-<row><cell id="{6b848845-937d-4cc6-85a6-3b5c3ab5c60f}"><labels><label description="Deliverability" languagecode="1033" /></labels><control id="bid_deliverability" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_deliverability" /></cell></row>
-<row><cell id="{702fba05-5980-4e5f-8718-6f9325aaafa1}"><labels><label description="Win Probability" languagecode="1033" /></labels><control id="bid_winprobability" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_winprobability" /></cell></row>
-<row><cell id="{385dc989-88f0-4573-bb7c-f98ffcbc0d60}"><labels><label description="Total Score" languagecode="1033" /></labels><control id="bid_totalscore" classid="{C6D124CA-7EDA-4a60-AAE0-8F0F6D293D9D}" datafieldname="bid_totalscore" /></cell></row>
-<row><cell id="{ee22ec94-ddbb-400b-882f-2ce6bdea8c92}"><labels><label description="Recommendation" languagecode="1033" /></labels><control id="bid_recommendation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_recommendation" /></cell></row>
-<row><cell id="{e091797e-5b88-4783-b982-c3d8b73bb3ed}"><labels><label description="Decision" languagecode="1033" /></labels><control id="bid_decision" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_decision" /></cell></row>
-<row><cell id="{7b7000f2-c1f9-4de4-b3ca-fdf176815527}"><labels><label description="Decision Date" languagecode="1033" /></labels><control id="bid_decisiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="bid_decisiondate" /></cell></row>
-<row><cell id="{1515bd3b-2982-4c7f-81ce-f0659e02e466}"><labels><label description="Rationale" languagecode="1033" /></labels><control id="bid_rationale" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="bid_rationale" /></cell></row>
+<row><cell id="{204c2325-5285-4dcd-91da-eb5a4f2fe78c}"><labels><label description="Scorecard Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{74a63ca5-e08d-4883-8664-03551b9334f0}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="bid_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_opportunityid" /></cell></row>
+<row><cell id="{2f3a6246-f011-4fac-b8f5-29e524f12a97}"><labels><label description="Strategic Fit" languagecode="1033" /></labels><control id="bid_strategicfit" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_strategicfit" /></cell></row>
+<row><cell id="{e6248bd7-35e3-429c-8ef7-f69cb9658dc6}"><labels><label description="Capability" languagecode="1033" /></labels><control id="bid_capability" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_capability" /></cell></row>
+<row><cell id="{2725894a-b1b8-4df4-9cd7-989cc8467269}"><labels><label description="Competitiveness" languagecode="1033" /></labels><control id="bid_competitiveness" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_competitiveness" /></cell></row>
+<row><cell id="{5e4c5241-3cb7-4c42-8a02-6869f6d39754}"><labels><label description="Commercial Value" languagecode="1033" /></labels><control id="bid_commercialvalue" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_commercialvalue" /></cell></row>
+<row><cell id="{21f0b66e-26a3-445f-b33f-52b5bdb0b3b5}"><labels><label description="Deliverability" languagecode="1033" /></labels><control id="bid_deliverability" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_deliverability" /></cell></row>
+<row><cell id="{4c732fee-a961-44cb-a142-7354a801d033}"><labels><label description="Win Probability" languagecode="1033" /></labels><control id="bid_winprobability" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_winprobability" /></cell></row>
+<row><cell id="{07a080a8-91d1-437f-9da3-192c996e603a}"><labels><label description="Total Score" languagecode="1033" /></labels><control id="bid_totalscore" classid="{C6D124CA-7EDA-4a60-AAE0-8F0F6D293D9D}" datafieldname="bid_totalscore" /></cell></row>
+<row><cell id="{655ce089-42ff-4bd0-92b7-80f5f8206bbb}"><labels><label description="Recommendation" languagecode="1033" /></labels><control id="bid_recommendation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_recommendation" /></cell></row>
+<row><cell id="{07732130-3e4c-4121-a44b-50dcb8ee6687}"><labels><label description="Decision" languagecode="1033" /></labels><control id="bid_decision" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_decision" /></cell></row>
+<row><cell id="{fbaa9788-7684-4fa2-824d-69b70e488e94}"><labels><label description="Decision Date" languagecode="1033" /></labels><control id="bid_decisiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="bid_decisiondate" /></cell></row>
+<row><cell id="{91c7a373-68af-4643-b276-6b5ea068cdba}"><labels><label description="Rationale" languagecode="1033" /></labels><control id="bid_rationale" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="bid_rationale" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -2141,7 +2141,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_scorecard</returnedtypecode>
-          <savedqueryid>{9dff6cfe-a404-4987-ad3e-88daad733cca}</savedqueryid>
+          <savedqueryid>{a4466730-a347-4f58-9d05-56c63fa3e672}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_scorecardid">
@@ -2190,7 +2190,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -2209,7 +2209,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2237,7 +2237,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2263,7 +2263,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2290,7 +2290,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2318,7 +2318,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2333,7 +2333,7 @@
         <OptionSetType>bit</OptionSetType>
         <IsGlobal>0</IsGlobal>
         <IsCustomizable>1</IsCustomizable>
-        <introducedversion>1.0.0.0</introducedversion>
+        <introducedversion>1.0.1.0</introducedversion>
         <displaynames><displayname description="Checklist Item" languagecode="1033" /></displaynames>
         <Descriptions><Description description="" languagecode="1033" /></Descriptions>
         <options>
@@ -2357,7 +2357,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2372,7 +2372,7 @@
         <OptionSetType>bit</OptionSetType>
         <IsGlobal>0</IsGlobal>
         <IsCustomizable>1</IsCustomizable>
-        <introducedversion>1.0.0.0</introducedversion>
+        <introducedversion>1.0.1.0</introducedversion>
         <displaynames><displayname description="Created by AI" languagecode="1033" /></displaynames>
         <Descriptions><Description description="" languagecode="1033" /></Descriptions>
         <options>
@@ -2409,24 +2409,24 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{7a3f1e0e-d1b3-4c29-a47e-da1ec410d575}</formid>
+          <formid>{687bdcfd-b1ce-4618-b956-1a21e2ca6310}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{7bbfe37a-cf0b-4a64-a099-90efe7cc6251}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{9ae129ec-8272-4014-b206-efb94c216256}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{582740aa-eb27-40d2-90a8-ede9fa18eb7f}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{6fec8273-4d9a-47c2-bcb8-a9da6b06d6a9}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{d97b6cef-c0f1-4255-b3ad-7dde8192509e}"><labels><label description="Task" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{61e0bf9d-4a2f-4ab9-a9f5-4c2eb3075801}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="bid_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_opportunityid" /></cell></row>
-<row><cell id="{adbce802-3a82-4cb9-8695-90b3c9f5702f}"><labels><label description="Due Date" languagecode="1033" /></labels><control id="bid_duedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="bid_duedate" /></cell></row>
-<row><cell id="{45903d51-b254-4d16-8eb8-a892df7f5af8}"><labels><label description="Status" languagecode="1033" /></labels><control id="bid_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_status" /></cell></row>
-<row><cell id="{b1717bec-ee22-4e02-9a11-a5d95b059a00}"><labels><label description="Checklist Item" languagecode="1033" /></labels><control id="bid_ischecklistitem" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_ischecklistitem" /></cell></row>
-<row><cell id="{177a0175-4c32-4c39-b0fc-241f2241c7a7}"><labels><label description="Created by AI" languagecode="1033" /></labels><control id="bid_createdbyai" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_createdbyai" /></cell></row>
+<row><cell id="{bf1a25db-c871-47cd-b9ca-f932b8facb13}"><labels><label description="Task" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{bff5455b-3425-4615-b022-c93219cb9f52}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="bid_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_opportunityid" /></cell></row>
+<row><cell id="{0b0ff1b9-5e90-46dd-a0db-73b53d7f8eeb}"><labels><label description="Due Date" languagecode="1033" /></labels><control id="bid_duedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="bid_duedate" /></cell></row>
+<row><cell id="{9255bfe1-3de1-40c6-a257-a67db816ff89}"><labels><label description="Status" languagecode="1033" /></labels><control id="bid_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_status" /></cell></row>
+<row><cell id="{73c0a140-16bb-4831-89c0-b64545c42384}"><labels><label description="Checklist Item" languagecode="1033" /></labels><control id="bid_ischecklistitem" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_ischecklistitem" /></cell></row>
+<row><cell id="{ca06f1fa-7111-41a6-b051-25f505b011cb}"><labels><label description="Created by AI" languagecode="1033" /></labels><control id="bid_createdbyai" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_createdbyai" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -2448,7 +2448,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_task</returnedtypecode>
-          <savedqueryid>{62fe9964-b1f3-4efe-b83d-677c3d7ab493}</savedqueryid>
+          <savedqueryid>{293c86a8-cae4-4ca8-b0d9-89ce37085ebf}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_taskid">
@@ -2497,7 +2497,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -2516,7 +2516,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2544,7 +2544,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2570,7 +2570,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2598,7 +2598,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2624,7 +2624,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2663,23 +2663,23 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{21bac5ec-5406-4bd2-95fc-9f1f496b4dc0}</formid>
+          <formid>{ecb96960-5857-4068-86c9-a59d1071c3c2}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{ed5c849f-a359-4312-ba95-49a3487d48e1}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{55a2b60e-122c-4b05-890b-7cc815c601ed}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{8200cd30-86b6-497e-a887-89dbe24da8e6}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{6671cc8a-af9e-4244-8bd2-4c6f54a04cc7}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{52095f15-c1b7-438f-9dae-049919fabf29}"><labels><label description="Document Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{f52035d3-77cb-4150-8595-3643ececc74b}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="bid_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_opportunityid" /></cell></row>
-<row><cell id="{3a54399a-cd55-46c9-bc3c-559edbfc6ac0}"><labels><label description="Category" languagecode="1033" /></labels><control id="bid_category" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_category" /></cell></row>
-<row><cell id="{32c421a9-2bdd-4125-ab13-e8678dc3df4b}"><labels><label description="Source / Git Path" languagecode="1033" /></labels><control id="bid_url" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_url" /></cell></row>
-<row><cell id="{ffa8c3b5-0018-4257-817a-9638a3c560dd}"><labels><label description="Version" languagecode="1033" /></labels><control id="bid_version" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_version" /></cell></row>
+<row><cell id="{b8955474-6d23-4da1-9ac6-626df3258cfb}"><labels><label description="Document Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{7790fe6b-025e-4c38-b5ff-aa8fe4a6b848}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="bid_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_opportunityid" /></cell></row>
+<row><cell id="{9d907bb8-373a-4a31-94f9-8b65b46acf30}"><labels><label description="Category" languagecode="1033" /></labels><control id="bid_category" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_category" /></cell></row>
+<row><cell id="{efb29d92-ee49-4602-b261-c2c0e6cb8f62}"><labels><label description="Source / Git Path" languagecode="1033" /></labels><control id="bid_url" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_url" /></cell></row>
+<row><cell id="{8ab16b05-7ddd-4ca3-a12e-baeb805845e8}"><labels><label description="Version" languagecode="1033" /></labels><control id="bid_version" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_version" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -2701,7 +2701,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_document</returnedtypecode>
-          <savedqueryid>{5b24682b-b960-4c8c-9901-b34430604025}</savedqueryid>
+          <savedqueryid>{5fd5249a-2720-488b-844d-cf0cdab1355e}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_documentid">
@@ -2748,7 +2748,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -2767,7 +2767,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2795,7 +2795,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2821,7 +2821,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2849,7 +2849,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2876,7 +2876,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2902,7 +2902,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2930,7 +2930,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2956,7 +2956,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -2971,7 +2971,7 @@
         <OptionSetType>bit</OptionSetType>
         <IsGlobal>0</IsGlobal>
         <IsCustomizable>1</IsCustomizable>
-        <introducedversion>1.0.0.0</introducedversion>
+        <introducedversion>1.0.1.0</introducedversion>
         <displaynames><displayname description="Debrief Received" languagecode="1033" /></displaynames>
         <Descriptions><Description description="" languagecode="1033" /></Descriptions>
         <options>
@@ -3008,26 +3008,26 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{be8098eb-eedd-402e-a388-f5dc511d88c5}</formid>
+          <formid>{c6d46c5f-18dd-4be7-b5c7-ac14cda4f5cf}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{d154f67d-2f1f-4103-9215-c58ac1954125}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{8adfca6c-3546-45c3-bed0-e06cfb4f7b87}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{6d365067-febe-4bd5-93df-3f5a6f95d9b4}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{ad268178-a660-402a-8699-bf1ea041e2f0}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{c6dce27f-e02e-4744-ba04-0a21fb5fa931}"><labels><label description="Outcome Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{c2c50c56-e38e-4cdc-abd2-531fe022c461}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="bid_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_opportunityid" /></cell></row>
-<row><cell id="{591adb65-277a-4b16-9e83-a7dde0a1e7e5}"><labels><label description="Result" languagecode="1033" /></labels><control id="bid_result" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_result" /></cell></row>
-<row><cell id="{eed9996c-1ae3-4d52-9a3d-f5037a1c728e}"><labels><label description="Awarded Value" languagecode="1033" /></labels><control id="bid_awardedvalue" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="bid_awardedvalue" /></cell></row>
-<row><cell id="{b3a8d9b0-945c-4b92-965e-96ac19fd3883}"><labels><label description="Winning Supplier" languagecode="1033" /></labels><control id="bid_winningsupplier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_winningsupplier" /></cell></row>
-<row><cell id="{401eae50-615c-4a38-9165-933ce54aa0d9}"><labels><label description="Reason Code" languagecode="1033" /></labels><control id="bid_reasoncode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_reasoncode" /></cell></row>
-<row><cell id="{bf49b396-3d04-4412-b23c-04f109236682}"><labels><label description="Lessons Learned" languagecode="1033" /></labels><control id="bid_lessonslearned" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="bid_lessonslearned" /></cell></row>
-<row><cell id="{e162fcc1-f3a8-400d-820e-9baab44a032e}"><labels><label description="Debrief Received" languagecode="1033" /></labels><control id="bid_debriefreceived" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_debriefreceived" /></cell></row>
+<row><cell id="{6c37d198-00cf-499c-83aa-f87c755367d1}"><labels><label description="Outcome Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{3c2f27c9-5278-466b-883e-ee2942996a6e}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="bid_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_opportunityid" /></cell></row>
+<row><cell id="{ee76f10b-7da8-4acc-8086-6bc2de16d86c}"><labels><label description="Result" languagecode="1033" /></labels><control id="bid_result" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_result" /></cell></row>
+<row><cell id="{045bea1b-25e5-41ae-82e7-8a167a6bea76}"><labels><label description="Awarded Value" languagecode="1033" /></labels><control id="bid_awardedvalue" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="bid_awardedvalue" /></cell></row>
+<row><cell id="{f9faacbc-7b01-48fb-9ccc-c172b7996274}"><labels><label description="Winning Supplier" languagecode="1033" /></labels><control id="bid_winningsupplier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_winningsupplier" /></cell></row>
+<row><cell id="{294d5fc0-fde7-4f35-aff7-e32a8f597699}"><labels><label description="Reason Code" languagecode="1033" /></labels><control id="bid_reasoncode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bid_reasoncode" /></cell></row>
+<row><cell id="{df547661-e37c-4a90-a27f-32c77625e6fe}"><labels><label description="Lessons Learned" languagecode="1033" /></labels><control id="bid_lessonslearned" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="bid_lessonslearned" /></cell></row>
+<row><cell id="{a9d4ac47-d76e-4eb2-abff-d9eb6c8ffa5c}"><labels><label description="Debrief Received" languagecode="1033" /></labels><control id="bid_debriefreceived" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="bid_debriefreceived" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -3049,7 +3049,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_outcome</returnedtypecode>
-          <savedqueryid>{8ff8f71c-cebb-4671-b0ac-9886d95af35d}</savedqueryid>
+          <savedqueryid>{2fe051a1-a284-4dc0-a0f5-2f26e903ace1}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_outcomeid">
@@ -3098,7 +3098,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>0</IsCustomizable>
       <IsRenameable>0</IsRenameable>
       <IsValidForAdvancedFind>0</IsValidForAdvancedFind>
@@ -3117,7 +3117,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -3145,7 +3145,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -3171,7 +3171,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -3197,7 +3197,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -3223,7 +3223,7 @@
       <IsCustomField>1</IsCustomField>
       <IsAuditEnabled>1</IsAuditEnabled>
       <IsSecured>0</IsSecured>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.1.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
       <IsRenameable>1</IsRenameable>
       <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -3262,23 +3262,23 @@
     <FormXml>
       <forms type="main">
         <systemform>
-          <formid>{746cbac3-1e1b-4026-ba6f-7db1790d700f}</formid>
+          <formid>{b1b31a92-1b0e-4b6f-bd71-e2be74b3e7b5}</formid>
           <IsCustomizable>1</IsCustomizable>
           <form>
             <tabs>
-              <tab name="general" id="{b17f1110-92ba-474a-bf82-6f8ffe3f0823}" IsUserDefined="0" associatedentitytypecode="">
+              <tab name="general" id="{7ac38127-a937-48f7-aee0-99e9a553939e}" IsUserDefined="0" associatedentitytypecode="">
                 <labels><label description="General" languagecode="1033" /></labels>
                 <columns>
                   <column width="100%">
                     <sections>
-                      <section name="details" id="{147d4cca-2498-44b6-8bd8-18470fbd4017}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                      <section name="details" id="{ad8b7aa1-7458-4215-b863-c486ddc0c7fc}" IsUserDefined="0" showlabel="true" showbar="false" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                         <labels><label description="Details" languagecode="1033" /></labels>
                         <rows>
-<row><cell id="{de55a341-2ac6-452c-b4e5-a173a46454ef}"><labels><label description="Contact Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
-<row><cell id="{69eb2d25-38ee-461f-b5ea-dba56cc1bcdd}"><labels><label description="Buyer" languagecode="1033" /></labels><control id="bid_buyerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_buyerid" /></cell></row>
-<row><cell id="{e7b3bbf6-ba48-4b3b-a05a-8c06d14adadf}"><labels><label description="Email" languagecode="1033" /></labels><control id="bid_email" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_email" /></cell></row>
-<row><cell id="{576121c5-be5d-4f43-8f10-3bd2058858bf}"><labels><label description="Phone" languagecode="1033" /></labels><control id="bid_phone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_phone" /></cell></row>
-<row><cell id="{a1014903-25ab-426e-92c7-11b7a9f2a4be}"><labels><label description="Role" languagecode="1033" /></labels><control id="bid_role" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_role" /></cell></row>
+<row><cell id="{a97a062d-be0c-45b5-aec2-73b701c92e49}"><labels><label description="Contact Name" languagecode="1033" /></labels><control id="bid_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_name" /></cell></row>
+<row><cell id="{d407faee-8a51-4540-a667-28febf4dc2f2}"><labels><label description="Buyer" languagecode="1033" /></labels><control id="bid_buyerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bid_buyerid" /></cell></row>
+<row><cell id="{73bc0ba1-85db-4f47-9362-6b4e8f7ce8f8}"><labels><label description="Email" languagecode="1033" /></labels><control id="bid_email" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_email" /></cell></row>
+<row><cell id="{fae3aabb-9a59-4820-99a6-8feb737da5df}"><labels><label description="Phone" languagecode="1033" /></labels><control id="bid_phone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_phone" /></cell></row>
+<row><cell id="{a6fc261d-5e1f-4b23-a6c1-485ec10b4cfd}"><labels><label description="Role" languagecode="1033" /></labels><control id="bid_role" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bid_role" /></cell></row>
                         </rows>
                       </section>
                     </sections>
@@ -3300,7 +3300,7 @@
           <isprivate>0</isprivate>
           <isdefault>1</isdefault>
           <returnedtypecode>bid_contact</returnedtypecode>
-          <savedqueryid>{2ddba82e-927f-4d64-8595-8f2a53ecee1c}</savedqueryid>
+          <savedqueryid>{83ad8df5-d48e-451e-9e56-9080d60ac59a}</savedqueryid>
           <layoutxml>
             <grid name="resultset" object="1" jump="bid_name" select="1" icon="1" preview="1">
               <row name="result" id="bid_contactid">
@@ -3338,7 +3338,7 @@
   <EntityRelationship Name="bid_buyertype_bid_buyer_bid_buyertypeid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_buyer</ReferencingEntityName>
     <ReferencedEntityName>bid_buyertype</ReferencedEntityName>
@@ -3369,7 +3369,7 @@
   <EntityRelationship Name="bid_buyer_bid_framework_bid_ownerauthorityid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_framework</ReferencingEntityName>
     <ReferencedEntityName>bid_buyer</ReferencedEntityName>
@@ -3400,7 +3400,7 @@
   <EntityRelationship Name="bid_company_bid_opportunity_bid_companyid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_opportunity</ReferencingEntityName>
     <ReferencedEntityName>bid_company</ReferencedEntityName>
@@ -3431,7 +3431,7 @@
   <EntityRelationship Name="bid_domain_bid_opportunity_bid_domainid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_opportunity</ReferencingEntityName>
     <ReferencedEntityName>bid_domain</ReferencedEntityName>
@@ -3462,7 +3462,7 @@
   <EntityRelationship Name="bid_buyertype_bid_opportunity_bid_buyertypeid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_opportunity</ReferencingEntityName>
     <ReferencedEntityName>bid_buyertype</ReferencedEntityName>
@@ -3493,7 +3493,7 @@
   <EntityRelationship Name="bid_buyer_bid_opportunity_bid_buyerid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_opportunity</ReferencingEntityName>
     <ReferencedEntityName>bid_buyer</ReferencedEntityName>
@@ -3524,7 +3524,7 @@
   <EntityRelationship Name="bid_framework_bid_opportunity_bid_frameworkid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_opportunity</ReferencingEntityName>
     <ReferencedEntityName>bid_framework</ReferencedEntityName>
@@ -3555,7 +3555,7 @@
   <EntityRelationship Name="bid_opportunity_bid_scorecard_bid_opportunityid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_scorecard</ReferencingEntityName>
     <ReferencedEntityName>bid_opportunity</ReferencedEntityName>
@@ -3586,7 +3586,7 @@
   <EntityRelationship Name="bid_opportunity_bid_task_bid_opportunityid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_task</ReferencingEntityName>
     <ReferencedEntityName>bid_opportunity</ReferencedEntityName>
@@ -3617,7 +3617,7 @@
   <EntityRelationship Name="bid_opportunity_bid_document_bid_opportunityid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_document</ReferencingEntityName>
     <ReferencedEntityName>bid_opportunity</ReferencedEntityName>
@@ -3648,7 +3648,7 @@
   <EntityRelationship Name="bid_opportunity_bid_outcome_bid_opportunityid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_outcome</ReferencingEntityName>
     <ReferencedEntityName>bid_opportunity</ReferencedEntityName>
@@ -3679,7 +3679,7 @@
   <EntityRelationship Name="bid_buyer_bid_contact_bid_buyerid">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.1.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>bid_contact</ReferencingEntityName>
     <ReferencedEntityName>bid_buyer</ReferencedEntityName>
@@ -3714,7 +3714,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Region" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3737,7 +3737,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Stage" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3757,7 +3757,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Source" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3771,7 +3771,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Score" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3786,7 +3786,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Recommendation" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3799,7 +3799,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Decision" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3811,7 +3811,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Taskstatus" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3825,7 +3825,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Doccategory" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3841,7 +3841,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Result" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
@@ -3855,7 +3855,7 @@
     <OptionSetType>picklist</OptionSetType>
     <IsGlobal>1</IsGlobal>
     <IsCustomizable>1</IsCustomizable>
-    <introducedversion>1.0.0.0</introducedversion>
+    <introducedversion>1.0.1.0</introducedversion>
     <displaynames><displayname description="Reasoncode" languagecode="1033" /></displaynames>
     <Descriptions><Description description="" languagecode="1033" /></Descriptions>
     <options>
