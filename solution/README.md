@@ -104,6 +104,20 @@ is safe to re-run. It exits non-zero if any component failed.
 
 ---
 
+## After tables exist — create the app views
+
+Once `deploy_via_webapi.py` has run and the buyer-type seed data is loaded, add
+the Opportunity views (pipeline, at-risk, win/loss, and NHS/MOD/Council lenses):
+
+```bash
+python3 build/deploy_app.py --url https://YOURORG.crm11.dynamics.com --dry-run
+python3 build/deploy_app.py --url https://YOURORG.crm11.dynamics.com
+```
+
+Then assemble the app shell, forms (subgrids), business process flow, dashboards
+and security roles using the runbook in
+[../docs/07-app-build.md](../docs/07-app-build.md).
+
 ## After deployment — load reference data
 
 Seed CSVs are in [`seed-data/`](seed-data/):
