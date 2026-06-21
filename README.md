@@ -42,9 +42,23 @@ This lets us report "all NHS bids" or "all bids in the AI domain" independently.
 | [docs/04-ai-agents.md](docs/04-ai-agents.md) | How Claude Code SDK agents plug into the solution |
 | [docs/05-data-import.md](docs/05-data-import.md) | Git feed → Dataverse ingestion via webhook (built later) |
 | [docs/06-roadmap.md](docs/06-roadmap.md) | Phased delivery plan |
+| [solution/](solution/) | **Importable Power Platform solution** — schema as code, zip, Web API deploy script, seed data |
+
+## Deploy the solution
+
+The Dataverse schema (11 tables, 10 global choices, 12 relationships) is built
+and ready in [`solution/`](solution/). Two deployment paths are documented in
+[solution/README.md](solution/README.md):
+
+- **Path A** — import `solution/dist/BidManagement_1_0_0_0.zip` at
+  make.powerapps.com (convenience).
+- **Path B (recommended/supported)** — run `solution/build/deploy_via_webapi.py`
+  against your environment.
+
+Deploy into a **development environment first**.
 
 ## Status
 
-Requirements / design phase. No Power Platform solution has been built yet — the
-git feed → Dataverse webhook ingestion and the app itself are upcoming work
+Schema delivered as an importable solution (see [`solution/`](solution/)). The
+git feed → Dataverse webhook ingestion and the model-driven app are upcoming work
 described in the roadmap.
