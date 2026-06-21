@@ -149,17 +149,28 @@ Roles are defined so they can be expanded as more human users join.
 ## 7. Assumptions
 
 - A1: Microsoft 365 / Power Platform tenant with Dataverse is available.
-- A2: A daily Excel export of opportunities exists or will exist as the upstream
-  source (see [05-data-import.md](05-data-import.md)).
+- A2: The daily feed of opportunities (and supporting documents) is delivered
+  from a **git repository** and ingested via a **webhook** on push — see
+  [05-data-import.md](05-data-import.md).
 - A3: Initial users are Admins; broader rollout follows.
 - A4: AI agents authenticate via a registered app / application user in Dataverse.
 
-## 8. Open questions
+## 8. Decisions & open questions
 
-- OQ-1: Source and exact column layout of the daily Excel feed.
-- OQ-2: Should consortium/joint bids (multiple companies on one opportunity) be
-  supported later? (Current model: one company per bid.)
-- OQ-3: Document storage target — Dataverse file columns vs SharePoint
-  integration.
-- OQ-4: Which AI agent actions are auto-applied vs require human approval.
+**Decided**
+
+- D-1: Feed source is a **git repository**, ingested via **webhook** on push
+  (data + documents). (Resolves former OQ-1 source.)
+- D-2: Documents are delivered through the **same git feed/webhook** and stored
+  in Dataverse file columns with the git path/commit retained for traceability.
+  (Resolves former OQ-3.)
+- D-3: **No consortium / joint bids** — each bid belongs to exactly one company.
+  (Resolves former OQ-2.)
+
+**Open**
+
+- OQ-1: Exact feed details — repo URL, branch, file format and column headers
+  (see [05-data-import.md](05-data-import.md)).
+- OQ-4: Which AI agent actions are auto-applied vs require human approval —
+  **not yet decided**.
 - OQ-5: Definition of "at-risk" deadline window (N days).

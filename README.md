@@ -40,11 +40,11 @@ This lets us report "all NHS bids" or "all bids in the AI domain" independently.
 | [docs/02-data-model.md](docs/02-data-model.md) | Dataverse tables, columns, choices and relationships |
 | [docs/03-app-design.md](docs/03-app-design.md) | App structure, screens, views, dashboards, security roles |
 | [docs/04-ai-agents.md](docs/04-ai-agents.md) | How Claude Code SDK agents plug into the solution |
-| [docs/05-data-import.md](docs/05-data-import.md) | Daily Excel → Dataverse ingestion (built later) |
+| [docs/05-data-import.md](docs/05-data-import.md) | Git feed → Dataverse ingestion via webhook (built later) |
 | [docs/06-roadmap.md](docs/06-roadmap.md) | Phased delivery plan |
 
 ## Status
 
 Requirements / design phase. No Power Platform solution has been built yet — the
-daily Excel → Dataverse import and the app itself are upcoming work described in
-the roadmap.
+git feed → Dataverse webhook ingestion and the app itself are upcoming work
+described in the roadmap.

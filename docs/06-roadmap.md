@@ -34,12 +34,15 @@ Phased plan. Each phase is shippable on its own.
 - Deadline reminders via Power Automate.
 - **Deliverable:** pipeline & win-rate visibility.
 
-## Phase 4 — Daily Excel import
+## Phase 4 — Git feed ingestion (webhook)
 
-- Build the Power Automate upsert flow + Import Log
+- Build the webhook ingestion endpoint (Azure Function / Power Automate HTTP) +
+  upsert logic + document sync + Import Log
   ([05-data-import.md](05-data-import.md)).
-- Confirm column mapping (OQ-1).
-- **Deliverable:** opportunities flow in automatically each day.
+- Verify webhook secret; restrict to the feed repo/branch.
+- Confirm repo layout and column mapping (OQ-1).
+- **Deliverable:** opportunities and documents flow in automatically on each
+  push to the feed repo.
 
 ## Phase 5 — AI agents (Claude Code SDK)
 

@@ -101,7 +101,7 @@ One row per opportunity / bid. Auto-numbered reference per company/year.
 | `bid_est_value` | Currency | Estimated contract value |
 | `bid_duration_months` | Whole number | Contract term |
 | `bid_win_probability` | Choice / % | Optional |
-| `bid_source` | Choice | Daily Excel, Manual, Portal, AI-found |
+| `bid_source` | Choice | Git Feed, Manual, Portal, AI-found |
 | `bid_external_ref` | Text | Source/portal reference (import key) |
 | `bid_published_date` | Date | |
 | `bid_clarification_deadline` | DateTime | |
@@ -123,7 +123,7 @@ status reasons.)
 
 ### Source choice (`bid_source`)
 
-`Daily Excel Import`, `Manual Entry`, `Portal`, `AI Discovered`.
+`Git Feed Import`, `Manual Entry`, `Portal`, `AI Discovered`.
 
 ---
 
@@ -166,8 +166,8 @@ Bid/no-bid qualification (1 active per bid; history allowed).
 | `bid_name` | Text (Primary) | |
 | `bid_opportunity` | Lookup → bid_opportunity | |
 | `bid_category` | Choice | Tender Pack / Clarification / Draft Response / Final Submission / Award Letter / Other |
-| `bid_file` | File | Or SharePoint link (see OQ-3) |
-| `bid_url` | URL | External link alternative |
+| `bid_file` | File | Binary stored in Dataverse (fed from git) |
+| `bid_url` | URL | Originating git path + commit SHA (traceability) |
 | `bid_version` | Text | |
 
 ## bid_outcome
@@ -213,6 +213,6 @@ bid_opportunity 1 ──1 bid_outcome
 
 ## Import key
 
-The daily Excel feed maps to `bid_opportunity`, keyed on `bid_external_ref`
-(source/portal reference) so re-imports **upsert** rather than duplicate. See
-[05-data-import.md](05-data-import.md).
+The git feed maps to `bid_opportunity`, keyed on `bid_external_ref`
+(source/portal reference) so re-ingestion on each push **upserts** rather than
+duplicates. See [05-data-import.md](05-data-import.md).

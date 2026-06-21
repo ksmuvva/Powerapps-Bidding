@@ -55,4 +55,4 @@ A multi-agent setup, each with a focused job:
 - Tooling: decide which higher-level actions become custom APIs/flows vs raw
   Web API calls.
 - Orchestration: where the Claude Code SDK agents run and how they are scheduled
-  / triggered (e.g. after the daily import).
+  / triggered (e.g. after the git feed webhook ingestion completes).
