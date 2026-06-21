@@ -1,0 +1,71 @@
+name: Export Dataverse solution to Git
+
+# Exports the unmanaged solution from your Dataverse (dev) environment, unpacks
+# it into source-control-friendly files under solutions/<name>/, and commits the
+# result back to the branch this workflow runs on.
+#
+# Setup (one time): see docs/08-git-export-setup.md
+# Required repo secrets: POWERPLATFORM_URL, CLIENT_ID, TENANT_ID, CLIENT_SECRET
+
+on:
+  workflow_dispatch:
+    inputs:
+      solution_name:
+        description: "Solution unique name (not display name)"
+        default: "bidmanagement"
+        required: true
+  # Optional daily harvest of maker changes — uncomment to enable.
+  # schedule:
+  #   - cron: "0 2 * * *"   # 02:00 UTC daily
+
+permissions:
+  contents: write
+
+jobs:
+  export-and-commit:
+    runs-on: ubuntu-latest
+    env:
+      SOLUTION_NAME: ${{ github.event.inputs.solution_name || 'bidmanagement' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify connection (Who Am I)
+        uses: microsoft/powerplatform-actions/who-am-i@v1
+        with:
+          environment-url: ${{ secrets.POWERPLATFORM_URL }}
+          app-id: ${{ secrets.CLIENT_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+
+      - name: Export solution (unmanaged)
+        uses: microsoft/powerplatform-actions/export-solution@v1
+        with:
+          environment-url: ${{ secrets.POWERPLATFORM_URL }}
+          app-id: ${{ secrets.CLIENT_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          solution-name: ${{ env.SOLUTION_NAME }}
+          solution-output-file: out/${{ env.SOLUTION_NAME }}.zip
+          managed: false
+
+      - name: Unpack solution into source
+        uses: microsoft/powerplatform-actions/unpack-solution@v1
+        with:
+          solution-file: out/${{ env.SOLUTION_NAME }}.zip
+          solution-folder: solutions/${{ env.SOLUTION_NAME }}
+          solution-type: Unmanaged
+          overwrite-files: true
+
+      - name: Commit changes (if any)
+        run: |
+          rm -rf out
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "solutions/${SOLUTION_NAME}"
+          if git diff --staged --quiet; then
+            echo "No solution changes to commit."
+          else
+            git commit -m "Export ${SOLUTION_NAME} solution from Dataverse [skip ci]"
+            git push
+          fi

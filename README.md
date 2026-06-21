@@ -43,6 +43,7 @@ This lets us report "all NHS bids" or "all bids in the AI domain" independently.
 | [docs/05-data-import.md](docs/05-data-import.md) | Git feed → Dataverse ingestion via webhook (built later) |
 | [docs/06-roadmap.md](docs/06-roadmap.md) | Phased delivery plan |
 | [docs/07-app-build.md](docs/07-app-build.md) | Runbook to build the model-driven app (shell, forms, BPF, dashboards, roles) |
+| [docs/08-git-export-setup.md](docs/08-git-export-setup.md) | Export the live Dataverse solution into this GitHub repo (GitHub Actions) |
 | [solution/](solution/) | **Importable Power Platform solution** — schema as code, zip, Web API deploy scripts, seed data |
 
 ## Deploy the solution
