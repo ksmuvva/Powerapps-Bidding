@@ -7,6 +7,54 @@ Dataverse environment and commit the unpacked source into this repo.
 You do this **once**. After that, you run the workflow whenever you want to
 capture changes (a button click, or on a daily schedule).
 
+---
+
+## Can't create an app registration? Use one of these instead
+
+If Step 1 fails with a permissions error, your tenant blocks non-admins from
+registering apps. The app registration is **only needed for the automated GitHub
+Actions route**. You can still get the solution into GitHub using your own
+sign-in — pick one:
+
+### Option B — Local export with your own login (no app reg, no secrets) ✅ easiest reliable
+
+Uses the Power Platform CLI with an interactive browser sign-in (MFA works) and
+your normal maker account.
+
+1. Install the CLI once (needs .NET):
+   ```bash
+   dotnet tool install --global Microsoft.PowerApps.CLI.Tool
+   # or the installer: https://aka.ms/PowerPlatformCLI
+   ```
+2. Run the helper script (signs in, exports, unpacks, commits, pushes):
+   ```bash
+   solution/build/export_to_git.sh bidmanagement https://orgXXXX.crm11.dynamics.com
+   ```
+   A browser opens for sign-in; then it commits `solutions/bidmanagement/`.
+
+### Option C — Portal export, zero tooling (no app reg, no CLI)
+
+1. <https://make.powerapps.com> → **Solutions** → tick **bidmanagement** →
+   **Export solution** → **Next** → export as **Unmanaged** → download the
+   `bidmanagement.zip`.
+2. Put it in the repo: GitHub web UI → **Add file → Upload files** → drop the zip
+   into a folder (e.g. `solutions/`) → commit. (Send it to me and I can unpack it
+   into diffable files.)
+
+### Option D — Ask an admin to create the app registration
+
+If you want the hands-off **automated** workflow, send your IT/Entra admin
+Step 1 below; once they give you the Client ID / Tenant ID / secret, you finish
+Steps 2–4 yourself.
+
+---
+
+## Automated route (GitHub Actions + service principal)
+
+The steps below set up the app registration for the
+[`export-solution.yml`](../.github/workflows/export-solution.yml) workflow. Skip
+this if you used Option B or C above.
+
 Total time: ~15 minutes. You need: access to the **Microsoft Entra admin
 center** (or Azure portal), the **Power Platform admin center**, and **admin on
 this GitHub repo**.
