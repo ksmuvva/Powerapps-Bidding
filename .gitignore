@@ -7,6 +7,9 @@
 .chroma/
 .memory/
 
+# Build-from-source MCP servers (cloned locally, not vendored)
+mcp-servers/
+
 # Python
 __pycache__/
 *.py[cod]

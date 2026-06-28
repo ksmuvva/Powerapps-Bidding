@@ -79,8 +79,8 @@
     },
 
     "langfuse": {
-      "command": "npx",
-      "args": ["-y", "mcp-server-langfuse"],
+      "command": "node",
+      "args": ["mcp-servers/mcp-server-langfuse/build/index.js"],
       "env": {
         "LANGFUSE_PUBLIC_KEY": "${LANGFUSE_PUBLIC_KEY}",
         "LANGFUSE_SECRET_KEY": "${LANGFUSE_SECRET_KEY}",
@@ -150,8 +150,8 @@
       "args": ["-y", "@waldzellai/clear-thought"]
     },
     "mcp-reasoner": {
-      "command": "npx",
-      "args": ["-y", "mcp-reasoner"]
+      "command": "node",
+      "args": ["mcp-servers/mcp-reasoner/dist/index.js"]
     },
     "think-mcp": {
       "command": "uvx",
