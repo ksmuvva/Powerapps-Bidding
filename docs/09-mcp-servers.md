@@ -34,10 +34,16 @@ gets the same catalogue of Model Context Protocol (MCP) servers.
 
 | Server | Source | Transport | Needs |
 | ------ | ------ | --------- | ----- |
-| `github` | github/github-mcp-server | http (hosted) | `GITHUB_MCP_PAT` |
+| `github` | GitHub-hosted MCP endpoint (`api.githubcopilot.com/mcp`) | http (hosted) | `GITHUB_MCP_PAT` |
 | `context7` | upstash/context7 | http (hosted) | `CONTEXT7_API_KEY` (optional) |
 | `deepwiki` | deepwiki.com | sse (hosted) | — |
 | `huggingface` | huggingface.co/mcp | http (hosted) | `HF_TOKEN` |
+
+> The `github` entry uses GitHub's **hosted** MCP endpoint
+> (`https://api.githubcopilot.com/mcp/`), not a local build of the
+> [`github/github-mcp-server`](https://github.com/github/github-mcp-server) OSS
+> repo. To self-host the OSS server instead, replace the `github` block with a
+> stdio command running that binary.
 
 ### Vector DB / data
 
@@ -147,8 +153,8 @@ credentialed handshakes):
 You do not need all of these at once. For the bid-management agents, a sensible
 first cut is:
 
-- **`github`**, **`context7`**, **`microsoft_docs`** equivalents — grounding in
-  code and Power Platform docs.
+- **`github`**, **`context7`**, **`deepwiki`** — grounding in code, library
+  documentation, and repository Q&A.
 - **`firecrawl`** / **`exa`** — tender and buyer research (Research agent).
 - **`memory`** or **`mem0`** — durable agent memory across runs.
 - **`serena`** / **`repomix`** — repo-aware code context.
