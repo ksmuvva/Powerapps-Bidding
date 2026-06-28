@@ -6,6 +6,8 @@
 # Local MCP server state
 .chroma/
 .memory/
+# Artifacts from launching a server before its ${VAR} env vars are set
+${*}/
 
 # Build-from-source MCP servers (cloned locally, not vendored)
 mcp-servers/
