@@ -1,0 +1,12 @@
+# Secrets / local MCP credentials — never commit
+.env
+.env.*
+!.env.example
+
+# Local MCP server state
+.chroma/
+.memory/
+
+# Python
+__pycache__/
+*.py[cod]
