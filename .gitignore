@@ -1,0 +1,17 @@
+# Secrets / local MCP credentials — never commit
+.env
+.env.*
+!.env.example
+
+# Local MCP server state
+.chroma/
+.memory/
+# Artifacts from launching a server before its ${VAR} env vars are set
+${*}/
+
+# Build-from-source MCP servers (cloned locally, not vendored)
+mcp-servers/
+
+# Python
+__pycache__/
+*.py[cod]

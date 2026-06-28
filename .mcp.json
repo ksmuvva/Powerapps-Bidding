@@ -1,0 +1,226 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/mcp.json",
+  "mcpServers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_MCP_PAT}"
+      }
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CONTEXT7_API_KEY}"
+      }
+    },
+    "deepwiki": {
+      "type": "sse",
+      "url": "https://mcp.deepwiki.com/sse"
+    },
+    "huggingface": {
+      "type": "http",
+      "url": "https://huggingface.co/mcp",
+      "headers": {
+        "Authorization": "Bearer ${HF_TOKEN}"
+      }
+    },
+
+    "chroma": {
+      "command": "uvx",
+      "args": ["chroma-mcp==0.2.6"],
+      "env": {
+        "CHROMA_CLIENT_TYPE": "persistent",
+        "CHROMA_DATA_DIR": "${CHROMA_DATA_DIR}"
+      }
+    },
+    "qdrant": {
+      "command": "uvx",
+      "args": ["mcp-server-qdrant==0.8.1"],
+      "env": {
+        "QDRANT_URL": "${QDRANT_URL}",
+        "QDRANT_API_KEY": "${QDRANT_API_KEY}",
+        "COLLECTION_NAME": "bid-management"
+      }
+    },
+    "pinecone": {
+      "command": "npx",
+      "args": ["-y", "@pinecone-database/mcp@0.2.1"],
+      "env": {
+        "PINECONE_API_KEY": "${PINECONE_API_KEY}"
+      }
+    },
+    "mem0": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/mem0ai/mem0-mcp", "mem0-mcp"],
+      "env": {
+        "MEM0_API_KEY": "${MEM0_API_KEY}"
+      }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@0.8.2",
+        "--read-only",
+        "--project-ref=${SUPABASE_PROJECT_REF}"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "${SUPABASE_ACCESS_TOKEN}"
+      }
+    },
+    "postgres": {
+      "command": "uvx",
+      "args": ["postgres-mcp==0.3.0", "--access-mode=restricted"],
+      "env": {
+        "DATABASE_URI": "${DATABASE_URI}"
+      }
+    },
+
+    "langfuse": {
+      "command": "node",
+      "args": ["mcp-servers/mcp-server-langfuse/build/index.js"],
+      "env": {
+        "LANGFUSE_PUBLIC_KEY": "${LANGFUSE_PUBLIC_KEY}",
+        "LANGFUSE_SECRET_KEY": "${LANGFUSE_SECRET_KEY}",
+        "LANGFUSE_BASEURL": "${LANGFUSE_BASEURL}"
+      }
+    },
+    "phoenix": {
+      "command": "npx",
+      "args": ["-y", "@arizeai/phoenix-mcp@4.0.17"],
+      "env": {
+        "PHOENIX_BASE_URL": "${PHOENIX_BASE_URL}",
+        "PHOENIX_API_KEY": "${PHOENIX_API_KEY}"
+      }
+    },
+    "firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp@3.22.1"],
+      "env": {
+        "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}"
+      }
+    },
+    "exa": {
+      "command": "npx",
+      "args": ["-y", "exa-mcp-server@3.2.1"],
+      "env": {
+        "EXA_API_KEY": "${EXA_API_KEY}"
+      }
+    },
+    "apify": {
+      "command": "npx",
+      "args": ["-y", "@apify/actors-mcp-server@0.11.4"],
+      "env": {
+        "APIFY_TOKEN": "${APIFY_TOKEN}"
+      }
+    },
+    "sentry": {
+      "type": "http",
+      "url": "https://mcp.sentry.dev/mcp"
+    },
+    "zapier": {
+      "type": "http",
+      "url": "${ZAPIER_MCP_URL}"
+    },
+
+    "e2b": {
+      "command": "npx",
+      "args": ["-y", "@e2b/mcp-server@0.2.3"],
+      "env": {
+        "E2B_API_KEY": "${E2B_API_KEY}"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@0.0.76"]
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@1.4.0"]
+    },
+
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@2025.12.18"]
+    },
+    "clear-thought": {
+      "command": "npx",
+      "args": ["-y", "@waldzellai/clear-thought@0.0.4"]
+    },
+    "mcp-reasoner": {
+      "command": "node",
+      "args": ["mcp-servers/mcp-reasoner/dist/index.js"]
+    },
+    "think-mcp": {
+      "command": "uvx",
+      "args": ["think-mcp==0.1.16"]
+    },
+    "mas-sequential-thinking": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/FradSer/mcp-server-mas-sequential-thinking", "mcp-server-mas-sequential-thinking"],
+      "env": {
+        "LLM_PROVIDER": "anthropic",
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}"
+      }
+    },
+
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory@2026.1.26"],
+      "env": {
+        "MEMORY_FILE_PATH": "${MEMORY_FILE_PATH}"
+      }
+    },
+    "graphiti": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/getzep/graphiti.git#subdirectory=mcp_server", "graphiti-mcp"],
+      "env": {
+        "NEO4J_URI": "${NEO4J_URI}",
+        "NEO4J_USER": "${NEO4J_USER}",
+        "NEO4J_PASSWORD": "${NEO4J_PASSWORD}",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
+    },
+    "cognee": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/topoteretes/cognee.git#subdirectory=cognee-mcp", "cognee"],
+      "env": {
+        "LLM_API_KEY": "${OPENAI_API_KEY}"
+      }
+    },
+    "letta": {
+      "command": "npx",
+      "args": ["-y", "letta-mcp-server@3.0.3"],
+      "env": {
+        "LETTA_BASE_URL": "${LETTA_BASE_URL}",
+        "LETTA_API_KEY": "${LETTA_API_KEY}"
+      }
+    },
+    "cipher": {
+      "command": "npx",
+      "args": ["-y", "@byterover/cipher@0.3.0", "--mode", "mcp"],
+      "env": {
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}"
+      }
+    },
+
+    "claude-context": {
+      "command": "npx",
+      "args": ["-y", "@zilliz/claude-context-mcp@0.1.15"],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "MILVUS_TOKEN": "${MILVUS_TOKEN}"
+      }
+    },
+    "serena": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/oraios/serena", "serena-mcp-server"]
+    },
+    "repomix": {
+      "command": "npx",
+      "args": ["-y", "repomix@1.15.0", "--mcp"]
+    }
+  }
+}
